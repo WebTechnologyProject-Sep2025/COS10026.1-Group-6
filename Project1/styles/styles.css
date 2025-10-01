@@ -2,6 +2,7 @@
 .hpt1{
     text-align: center;
     color: #272343;
+    margin: 0;
 }
 .hpt2{
     text-align: center;
@@ -9,7 +10,27 @@
 }
 header{
     background-color: #ffd803;
-    margin: 0px;
-    max-width: 100%;
+    background-size: cover;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+ul.nav   {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.nav li{
+    display: inline;
+    margin-right: 5px;
+    border: solid gray;
+}
+ul.nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
