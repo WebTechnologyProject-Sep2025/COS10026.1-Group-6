@@ -1,7 +1,9 @@
-/*homepage css*/
+/*Pages menu*/
 .hpt1{
     text-align: center;
     color: #272343;
+    margin: 0;
+    background-color: #ffd803;
     margin: 0;
 }
 .hpt2{
@@ -32,5 +34,11 @@ ul.nav li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin: 0px;
+    background-size: cover;
 }
-
+body {
+    padding: 0%;
+    margin: 0%;
+}
+/*Pages menu*/
