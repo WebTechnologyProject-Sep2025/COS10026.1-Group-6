@@ -5,6 +5,7 @@
     margin: 0;
     background-color: #ffd803;
     margin: 0;
+    font-weight: bolder;
 }
 .hpt2{
     text-align: center;
@@ -14,7 +15,6 @@ header{
     background-color: #ffd803;
     background-size: cover;
     margin: 0%;
-    font-family: 'Courier New', Courier, monospace;
 }
 body{
     padding: 0%;
@@ -24,11 +24,13 @@ ul.nav   {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 ul.nav li{
     display: inline;
-    margin-right: 5px;
+    margin-right: 100px;
     border: solid gray;
+    padding: 10px;
 }
 ul.nav li a{
     text-decoration: none;
@@ -40,5 +42,15 @@ ul.nav li a{
 body {
     padding: 0%;
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.hpa2{
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.aboutusdesc{
+    margin-right: 1000px;
+    text-align: left;
+    margin-left: 10px;
 }
 /*Pages menu*/
