@@ -1,7 +1,9 @@
-/*homepage css*/
+/*Pages menu*/
 .hpt1{
     text-align: center;
     color: #272343;
+    background-color: #ffd803;
+    margin: 0;
 }
 .hpt2{
     text-align: center;
@@ -10,6 +12,10 @@
 header{
     background-color: #ffd803;
     margin: 0px;
-    max-width: 100%;
+    background-size: cover;
 }
-
+body {
+    padding: 0%;
+    margin: 0%;
+}
+/*Pages menu*/
