@@ -1,59 +1,39 @@
-/*Pages menu*/
-.hpt1{
+/*VU DUY ANH - HOME PAGE*/
+.main_home{
     text-align: center;
-    color: #272343;
-    margin: 0;
-    background-color: #ffd803;
-    margin: 0;
-    font-weight: bolder;
+    font-size: larger;
 }
-.hpt2{
+.hp_aboutus{
+
+}
+.aboutus_desc{
+
+}
+.hp_vision{
     text-align: center;
-    color: #272343;
+
 }
-.hpheader{
-    background-color: #ffd803;
-    background-size: cover;
-    margin: 0%;
-}
-body{
-    padding: 0%;
-    margin: 0%;
-}
-ul.nav   {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.hp_mission{
     text-align: center;
 }
-ul.nav li{
-    display: inline;
-    margin-right: 100px;
-    border: solid gray;
-    padding: 10px;
+.vision_desc{
+    text-align: center;
+    margin-right: 50%;
 }
-ul.nav li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin: 0px;
-    background-size: cover;
+.mission_desc{
+    text-align:center;
+    margin-left: 50%;
 }
-body {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+.space1{
+    max-width: 45%;
 }
-.hpa2{
-    margin-left: 10px;
-    margin-bottom: -10px;
+.space2{
+    max-width: 45%;
 }
-.genericdesc{
-    margin-right: 1000px;
-    text-align: left;
-    margin-left: 10px;
+#hptitle{
+
 }
-/*Pages menu*/
+/*VU DUY ANH - HOME PAGE*/
 
 
 /* THIEU QUANG PHUOC - ABOUT US */
