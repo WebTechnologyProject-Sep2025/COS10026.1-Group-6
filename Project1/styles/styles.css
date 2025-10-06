@@ -1,44 +1,51 @@
-/*Pages menu*/
-.hpt1{
-    text-align: center;
-    color: #272343;
-    margin: 0;
-    background-color: #ffd803;
-    margin: 0;
-}
-.hpt2{
-    text-align: center;
-    color: #272343;
-}
-header{
-    background-color: #ffd803;
+/* Header, Navigation menu for 4 pages*/
+header {
+    background-color: #ffcc00;
     background-size: cover;
-    margin: 0%;
-    font-family: 'Courier New', Courier, monospace;
-}
-body{
-    padding: 0%;
-    margin: 0%;
-}
-ul.nav   {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-ul.nav li{
-    display: inline;
-    margin-right: 5px;
-    border: solid gray;
-}
-ul.nav li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
     margin: 0px;
-    background-size: cover;
+    padding: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: 3em;
 }
+.logo {
+    height: 2.8em;
+    position: absolute;
+    left: 0.5em;
+    top: 0.25em;
+
+}
+nav.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5em;
+    font-size: 20px;
+    height: 3.0em;
+}
+nav a {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav a:hover {
+    color: #920d47;
+    font-weight: bolder;
+    background-color: burlywood
+}
+h1.header_title {
+    text-align: center;
+    position: relative;
+    top: -2.1em;
+    left: 37.5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 1px;
+    width: fit-content;
+}
+/* Header, Navigation menu for 4 pages*/
 body {
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
 }
-/*Pages menu*/
