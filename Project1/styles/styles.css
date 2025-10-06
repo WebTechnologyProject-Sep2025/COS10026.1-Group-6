@@ -11,7 +11,7 @@
     text-align: center;
     color: #272343;
 }
-header{
+.hpheader{
     background-color: #ffd803;
     background-size: cover;
     margin: 0%;
@@ -48,7 +48,7 @@ body {
     margin-left: 10px;
     margin-bottom: -10px;
 }
-.aboutusdesc{
+.genericdesc{
     margin-right: 1000px;
     text-align: left;
     margin-left: 10px;
