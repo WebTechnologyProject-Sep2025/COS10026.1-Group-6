@@ -3,36 +3,82 @@
     text-align: center;
     font-size: larger;
 }
+.hpintro{
+    width: 750px;
+  height: 115px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+}
 .hp_aboutus{
-
+    border-right: 1px solid;
+    padding: 10px;
+    margin-top: 10px;
 }
 .aboutus_desc{
+}
 
-}
-.hp_vision{
-    text-align: center;
-
-}
-.hp_mission{
-    text-align: center;
-}
-.vision_desc{
-    text-align: center;
-    margin-right: 50%;
-}
-.mission_desc{
-    text-align:center;
-    margin-left: 50%;
-}
 .space1{
-    max-width: 45%;
+    max-width: 500px;
+    border-radius: 20px;
+    max-height: 500px;
 }
 .space2{
-    max-width: 45%;
+    width: 500px;
+    border-radius: 20px;
 }
 #hptitle{
 
 }
+#VnM{
+    display: flex;
+    gap: 20px;
+}
+.environment_desc{
+    width: 750px;
+  height: 100px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+}
+.VnM {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor:pointer;
+}
+.testimg{
+    width: 350px;
+    height: 1100px;
+    float: left;
+    margin-top: 10px;
+}
+
 /*VU DUY ANH - HOME PAGE*/
 
 
