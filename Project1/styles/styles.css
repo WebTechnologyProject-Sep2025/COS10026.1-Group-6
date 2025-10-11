@@ -18,6 +18,7 @@ description: refers to the CSS file for all 4 pages (about.html, apply.html, ind
     background-color: #ffd803;
     margin: 0;
     font-weight: bolder;
+}
 /* VU DUY ANH - HOMEPAGE */
 
 :root {
@@ -79,7 +80,7 @@ nav .menu_right:hover {
 .header_homepage {
     width: 100%;
     min-height: 60vh;
-    background-image: url(assets/background_red_images.png);
+    background-image: url(/Project1/styles/images/background_red_images.png);
     background-position: center;
     background-size: cover;
     overflow: hidden;
