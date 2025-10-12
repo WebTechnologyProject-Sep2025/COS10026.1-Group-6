@@ -80,7 +80,7 @@ nav .menu_right:hover {
 .header_homepage {
     width: 100%;
     min-height: 60vh;
-    background-image: url(/Project1/styles/images/background_red_images.png); 
+    background-image: url(../images/background_red_images.png); 
     background-position: center;
     background-size: cover;
     overflow: hidden;
