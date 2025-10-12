@@ -47,8 +47,8 @@
         <fieldset class="form_wrapper">
           <h2 class="form-title">Job Application Form</h2>
           <!-- Job reference number selection -->
-          <label for="job-reference">Select your Jor reference number:</label>
-          <select id="job-reference" required="required">
+          <label for="job-reference">Select your Job reference number:</label>
+          <select name="job-reference" id="job-reference" required="required">
             <option value="">Job reference number </option>
             <option value="CLD01">CLD01 (Cloud Engineer)</option>
             <option value="SEC02">SEC02 (Cybersecurity Analyst)</option>
@@ -80,13 +80,13 @@
             <br>
             <!-- Street Address -->
             <label for="street_add">Enter your Street Address:</label>
-            <input id="street_add" type="text" name="street_add" maxlength="40" pattern=".{1,40}" placeholder="Your Street Address"
-              title="Please enter your Street Address">
+            <input id="street_add" type="text" name="street_add" maxlength="40" pattern=".{1,40}"
+              placeholder="Your Street Address" title="Please enter your Street Address">
             <br>
             <!-- Suburb/town -->
             <label for="suto">Enter your Suburb/town:</label>
-            <input id="suto" type="text" name="suburb/town" maxlength="40" pattern=".{1,40}" placeholder="Your Suburb/town"
-              title="Please enter your suburb/town">
+            <input id="suto" type="text" name="suburb_town" maxlength="40" pattern=".{1,40}"
+              placeholder="Your Suburb/town" title="Please enter your suburb/town">
             <br>
             <!-- State -->
             <label for="state">Select your State:</label>
@@ -96,7 +96,7 @@
               <option value="NSW">NSW</option>
               <option value="QLD">QLD</option>
               <option value="NT">NT</option>
-              <option value="WASA">WASA</option>
+              <option value="WA">WA</option>
               <option value="SA">SA</option>
               <option value="TAS">TAS</option>
               <option value="ACT">ACT</option>
@@ -104,8 +104,8 @@
             <br>
             <!-- Postcode -->
             <label for="postcode">Enter your postcode:</label>
-            <input id="postcode" type="text" name="postcode" maxlength="4" required="required" pattern="^[0-9]{4}$" placeholder="Your Postcode"
-              title=" Please type exactly 4 digits based on States ">
+            <input id="postcode" type="text" name="postcode" maxlength="4" required="required" pattern="^[0-9]{4}$"
+              placeholder="Your Postcode" title=" Please type exactly 4 digits based on States ">
             <br>
             <!-- Email address -->
             <label for="email">Enter your Email address:</label>
@@ -115,8 +115,8 @@
             <br>
             <!-- Phone number -->
             <label for="phone">Enter your phone number:</label>
-            <input id="phone" type="text" name="phone number" required="required" size="25" pattern="[0-9\s\]{8,12}"
-              placeholder="Your phone number">
+            <input id="phone" type="text" name="phone_number" required="required" size="25" pattern="[0-9\s]{8,12}"
+              placeholder="Your phone number" title="please enter the correct format">
             <br>
           </fieldset>
           <!-- Required technical list -->
@@ -154,15 +154,15 @@
             <label><input type="checkbox" name="skills[]" value="Cloud Security"> Cloud Security
             </label>
             <br>
-              <label id="honest"> <input type="checkbox" name="skills[]" value="All I ticked are true"
-                  required="required" checked="checked">The skills I ticked are true representation of my
-                abilities</label>
+            <label id="honest"> <input type="checkbox" name="skills[]" value="All I ticked are true" required="required"
+                checked="checked">The skills I ticked are true representation of my
+              abilities</label>
           </fieldset>
           <br>
           <!-- Other skills -->
           <label for="otherskills">Other skills (optional):</label>
           <br>
-          <textarea id="otherskills" placeholder="Other technical or job related skills"></textarea>
+          <textarea name="otherskills" id="otherskills" placeholder="Other technical or job related skills"></textarea>
           <br>
           <!-- submit button -->
           <p class="submit">Submit your application form</p>
