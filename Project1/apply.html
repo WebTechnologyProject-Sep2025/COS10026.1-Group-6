@@ -50,9 +50,9 @@
           <label for="job-reference">Select your Jor reference number:</label>
           <select id="job-reference" required="required">
             <option value="">Job reference number </option>
-            <option name="job-ref-number" value="CLD01">CLD01 (Cloud Engineer)</option>
-            <option name="job-ref-number" value="SEC02">SEC02 (Cybersecurity Analyst)</option>
-            <option name="job-ref-number" value="FED03">FED03 (Front-End Developer)</option>
+            <option value="CLD01">CLD01 (Cloud Engineer)</option>
+            <option value="SEC02">SEC02 (Cybersecurity Analyst)</option>
+            <option value="FED03">FED03 (Front-End Developer)</option>
           </select>
           <br>
           <fieldset class="personalinfo">
@@ -74,49 +74,49 @@
             <!-- Gender -->
             <fieldset>
               <legend>Your Gender</legend>
-              <input type="radio" name="gender" value="Male">Male
-              <input type="radio" name="gender" value="Female">Female
+              <label><input type="radio" name="gender" value="Male">Male</label>
+              <label><input type="radio" name="gender" value="Female">Female</label>
             </fieldset>
             <br>
             <!-- Street Address -->
             <label for="street_add">Enter your Street Address:</label>
-            <input id="street_add" type="text" name="street_add" maxlength="40" pattern=".{1,40}"
+            <input id="street_add" type="text" name="street_add" maxlength="40" pattern=".{1,40}" placeholder="Your Street Address"
               title="Please enter your Street Address">
             <br>
             <!-- Suburb/town -->
             <label for="suto">Enter your Suburb/town:</label>
-            <input id="suto" type="text" name="suburb/town" maxlength="40" pattern=".{1,40}"
+            <input id="suto" type="text" name="suburb/town" maxlength="40" pattern=".{1,40}" placeholder="Your Suburb/town"
               title="Please enter your suburb/town">
             <br>
             <!-- State -->
             <label for="state">Select your State:</label>
-            <select id="state" required="required">
+            <select name="state" id="state" required="required">
               <option value="">Select you State</option>
-              <option name="state" value="VIC">VIC</option>
-              <option name="state" value="NSW">NSW</option>
-              <option name="state" value="QLD">QLD</option>
-              <option name="state" value="NT">NT</option>
-              <option name="state" value="WASA">WASA</option>
-              <option name="state" value="SA">SA</option>
-              <option name="state" value="TAS">TAS</option>
-              <option name="state" value="ACT">ACT</option>
+              <option value="VIC">VIC</option>
+              <option value="NSW">NSW</option>
+              <option value="QLD">QLD</option>
+              <option value="NT">NT</option>
+              <option value="WASA">WASA</option>
+              <option value="SA">SA</option>
+              <option value="TAS">TAS</option>
+              <option value="ACT">ACT</option>
             </select>
             <br>
             <!-- Postcode -->
             <label for="postcode">Enter your postcode:</label>
-            <input id="postcode" type="text" name="postcode" maxlength="4" required="required" pattern="^[0-9]{4}$"
+            <input id="postcode" type="text" name="postcode" maxlength="4" required="required" pattern="^[0-9]{4}$" placeholder="Your Postcode"
               title=" Please type exactly 4 digits based on States ">
             <br>
             <!-- Email address -->
             <label for="email">Enter your Email address:</label>
             <input id="email" type="text" name="email" required="required"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Please enter your Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your Email"
               title="Please enter the right format">
             <br>
             <!-- Phone number -->
-            <laber for="phone">Enter your phone number:</laber>
+            <label for="phone">Enter your phone number:</label>
             <input id="phone" type="text" name="phone number" required="required" size="25" pattern="[0-9\s\]{8,12}"
-              placeholder="Please enter your phone number">
+              placeholder="Your phone number">
             <br>
           </fieldset>
           <!-- Required technical list -->
@@ -168,7 +168,6 @@
           <p class="submit">Submit your application form</p>
           <input type="submit" value="Submit" id="submit">
         </fieldset>
-
       </form>
     </div>
   </main>
