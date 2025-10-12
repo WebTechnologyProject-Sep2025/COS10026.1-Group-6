@@ -167,7 +167,7 @@ nav .menu_right:hover {
         opacity: 0;
     }
     100% {
-        transform: transalateY(300px);
+        transform: translateY(300px);
         opacity: 1;
     }
 }
