@@ -127,7 +127,8 @@ nav .menu_right:hover {
     background: linear-gradient(210deg, #FF4500, #FFA500, #FFD700);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-
+    width: fit-content;
+    font-size: 1em;
 }
 .read_more_button a {
     text-decoration: none;
@@ -241,6 +242,7 @@ nav .menu_right:hover {
     border: none;
     border-radius: 10px;
     background-color: var(--red);
+    width: fit-content;
 }
 
 #read_more_button_2 a {
@@ -907,6 +909,7 @@ dl {
     text-align: center;
     font-size: 1.2rem;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .members_interests {
@@ -1234,8 +1237,8 @@ fieldset.reqskills {
     gap: 10px;
 }
 
-/* This is for the submit button */
-#submit {
+/* This is for the apply button */
+#apply {
     background-image: linear-gradient(to left, #4c1e1e, #ff4d4d);
     color: var(--white);
     border: 1px solid var(--red);
@@ -1247,7 +1250,7 @@ fieldset.reqskills {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#submit:hover {
+#apply:hover {
     background-image: linear-gradient(to right, #4c1e1e, #ff4d4d);
     box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.4);
     font-family: 'Times New Roman', Times, serif;
@@ -1255,7 +1258,7 @@ fieldset.reqskills {
 
 }
 
-p.submit {
+p.apply {
     text-align: center;
     font-size: 20px;
     padding: 0px;
