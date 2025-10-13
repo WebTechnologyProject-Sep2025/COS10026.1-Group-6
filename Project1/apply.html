@@ -74,18 +74,18 @@
             <!-- Gender -->
             <fieldset>
               <legend>Your Gender</legend>
-              <label><input type="radio" name="gender" value="Male">Male</label>
+              <label><input type="radio" name="gender" value="Male" required="required">Male</label>
               <label><input type="radio" name="gender" value="Female">Female</label>
             </fieldset>
             <br>
             <!-- Street Address -->
             <label for="street_add">Enter your Street Address:</label>
-            <input id="street_add" type="text" name="street_add" maxlength="40" pattern=".{1,40}"
+            <input id="street_add" type="text" name="street_add" maxlength="40" pattern=".{1,40}" required="required"
               placeholder="Your Street Address" title="Please enter your Street Address">
             <br>
             <!-- Suburb/town -->
             <label for="suto">Enter your Suburb/town:</label>
-            <input id="suto" type="text" name="suburb_town" maxlength="40" pattern=".{1,40}"
+            <input id="suto" type="text" name="suburb_town" maxlength="40" pattern=".{1,40}" required="required"
               placeholder="Your Suburb/town" title="Please enter your suburb/town">
             <br>
             <!-- State -->
